@@ -1,5 +1,6 @@
 from obiekty.Osoba import Osoba
 from typing import List
+from obiekty.Harmonogram import Harmonogram
 
 
 class Nauczyciel(Osoba):
@@ -7,6 +8,9 @@ class Nauczyciel(Osoba):
     uczniowie: List[Osoba]
     tytul: str
     stawkaGodzinowa: float
+    harmonogram: Harmonogram
+    def __init__(self):
+        pass
 
     def najblizszeZajecia(self):
         """Zwraca informację o najbliższych zajęciach w formie daty i godziny od do."""
