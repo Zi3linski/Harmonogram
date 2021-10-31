@@ -22,7 +22,7 @@ def main():
     u1.pokazPrzedmiot("Polski")
     u1.usunPrzedmiot("Matematyka")
     u1.pokazPrzedmiot("Matematyka")
-
+ #kdlfs;knms;kdnm
 
 if __name__ == '__main__':
     main()
