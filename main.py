@@ -18,7 +18,7 @@ def main():
     print(u1.postepy("Polski"))
     u1.dodajPrzedmiot(Przedmiot("Matematyka", 2, 35, "Wt", 2))
     print(u1)
-
+    u1.podajDanePersonalne()
     u1.pokazPrzedmiot("Polski")
     u1.usunPrzedmiot("Matematyka")
     u1.pokazPrzedmiot("Matematyka")
